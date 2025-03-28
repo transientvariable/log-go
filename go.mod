@@ -1,4 +1,4 @@
-module github.com/transientvariable/log
+module github.com/transientvariable/log-go
 
 go 1.24.1
 

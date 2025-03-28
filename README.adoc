@@ -30,7 +30,7 @@ Logging abstraction for Go.
 
 [source%nowrap,bash]
 ----
-❯ go get -u github.com/transientvariable/log
+❯ go get -u github.com/transientvariable/log-go
 ----
 
 == License
