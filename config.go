@@ -1,43 +1,43 @@
 package log
 
 const (
-	// LogLevel configuration path.
+	// LLevel configuration path.
 	//
 	// value: <root>.log.level
-	LogLevel = "log.level"
+	LLevel = "log.level"
 
-	// LogFile configuration path.
+	// File configuration path.
 	//
 	// value: <root>.log.file
-	LogFile = "log.file"
+	File = "log.file"
 
-	// LogFileEnableFileLogging configuration path.
+	// FileEnableFileLogging configuration path.
 	//
 	// value: <root>.log.file.enable
-	LogFileEnableFileLogging = LogFile + ".enable"
+	FileEnableFileLogging = File + ".enable"
 
-	// LogFileDirectory configuration path.
+	// FileDirectory configuration path.
 	//
 	// value: <root>.log.file.directory
-	LogFileDirectory = LogFile + ".directory"
+	FileDirectory = File + ".directory"
 
-	// LogFileName configuration path.
+	// FileName configuration path.
 	//
 	// value: <root>.log.file.name
-	LogFileName = LogFile + ".name"
+	FileName = File + ".name"
 
-	// LogFileSize configuration path.
+	// FileSize configuration path.
 	//
 	// value: <root>.log.file.size
-	LogFileSize = LogFile + ".size"
+	FileSize = File + ".size"
 
-	// LogFileRetentionAge configuration path.
+	// FileRetentionAge configuration path.
 	//
 	// value: <root>.log.file.retention.age
-	LogFileRetentionAge = LogFile + ".retention.age"
+	FileRetentionAge = File + ".retention.age"
 
-	// LogFileRetentionBackups configuration path.
+	// FileRetentionBackups configuration path.
 	//
 	// value: <root>.log.file.retention.backups
-	LogFileRetentionBackups = LogFile + ".retention.backups"
+	FileRetentionBackups = File + ".retention.backups"
 )

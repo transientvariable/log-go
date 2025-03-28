@@ -220,9 +220,9 @@ func prepareFileWriters(file string, levels ...zerolog.Level) []*LevelWriter {
 		Compress:   false,
 		Filename:   file,
 		LocalTime:  false,
-		MaxAge:     intValue(LogFileRetentionAge, defaultRetentionAge),
-		MaxBackups: intValue(LogFileRetentionBackups, defaultRetentionBackups),
-		MaxSize:    intValue(LogFileSize, defaultSize),
+		MaxAge:     intValue(FileRetentionAge, defaultRetentionAge),
+		MaxBackups: intValue(FileRetentionBackups, defaultRetentionBackups),
+		MaxSize:    intValue(FileSize, defaultSize),
 	}
 
 	var w []*LevelWriter
