@@ -1,5 +1,5 @@
 = log
-Matt Nicholls <transientvariable@gmail.com>
+Matt Nicholls <transientvariable@protonmail.com>
 :keywords: log,logging,zerolog
 :experimental: true
 :icons: font
