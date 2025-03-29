@@ -9,7 +9,7 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/transientvariable/config"
+	"github.com/transientvariable/config-go"
 
 	"github.com/mattn/go-colorable"
 	"github.com/rs/zerolog"
