@@ -16,7 +16,7 @@ import (
 	"gopkg.in/natefinch/lumberjack.v2"
 
 	zlog "github.com/rs/zerolog/log"
-	stdLog "log"
+	goLog "log"
 )
 
 const (
@@ -235,9 +235,9 @@ func prepareFileWriters(file string, levels ...zerolog.Level) []*LevelWriter {
 func prepareDir(path string) string {
 	dir := strings.TrimSpace(path)
 	if err := statDir(dir); err != nil {
-		stdLog.Println(fmt.Errorf("log: could not stat directory: %s: %w", dir, err))
+		goLog.Println(fmt.Errorf("log: could not stat directory: %s: %w", dir, err))
 		dir = os.TempDir()
-		stdLog.Printf("log: using default directory: %s", dir)
+		goLog.Printf("log: using default directory: %s", dir)
 	}
 	return dir
 }
