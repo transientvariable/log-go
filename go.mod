@@ -5,7 +5,7 @@ go 1.24.1
 require (
 	github.com/mattn/go-colorable v0.1.14
 	github.com/rs/zerolog v1.34.0
-	github.com/transientvariable/config-go v0.0.0-20250328202531-b2c2c900313c
+	github.com/transientvariable/config-go v0.0.0-20250330190126-d13090cf51c9
 	gopkg.in/natefinch/lumberjack.v2 v2.2.1
 )
 
@@ -28,7 +28,7 @@ require (
 	github.com/multiformats/go-varint v0.0.7 // indirect
 	github.com/spaolacci/murmur3 v1.1.0 // indirect
 	github.com/timberio/go-datemath v0.1.0 // indirect
-	github.com/transientvariable/anchor v0.0.0-20250328202339-a951ff086c00 // indirect
+	github.com/transientvariable/anchor v0.0.0-20250331021423-92af82ab0491 // indirect
 	golang.org/x/crypto v0.36.0 // indirect
 	golang.org/x/exp v0.0.0-20250305212735-054e65f0b394 // indirect
 	golang.org/x/sys v0.31.0 // indirect

@@ -61,10 +61,10 @@ github.com/stretchr/testify v1.9.0 h1:HtqpIVDClZ4nwg75+f6Lvsy/wHu+3BoSGCbBAcpTsT
 github.com/stretchr/testify v1.9.0/go.mod h1:r2ic/lqez/lEtzL7wO/rwa5dbSLXVDPFyf8C91i36aY=
 github.com/timberio/go-datemath v0.1.0 h1:1OUCvSIX1qXLJ57h12OWfgt6MNpJnsdNvrp8dLIUFtg=
 github.com/timberio/go-datemath v0.1.0/go.mod h1:m7kjsbCuO4QKP3KLfnxiUZWiOiFXmxj30HeexjL3lc0=
-github.com/transientvariable/config-go v0.0.0-20250328202531-b2c2c900313c h1:m0qD+4s7OMJblQy5dHJdXZwDFQ9kk0eLQ3KFz/8LcBg=
-github.com/transientvariable/config-go v0.0.0-20250328202531-b2c2c900313c/go.mod h1:IvyySSVQ25SXV8Q2PeZu4GGJ+ep35ogtDHNcICibko8=
-github.com/transientvariable/anchor v0.0.0-20250328202339-a951ff086c00 h1:SvGhLoPpjxrU85JHWiv2+8vvZYnU4hItfOVV2MtSees=
-github.com/transientvariable/anchor v0.0.0-20250328202339-a951ff086c00/go.mod h1:pDT3wBChwXkf4HYsVvwSCDFa+Oqrhqoi8qkKyomcMTM=
+github.com/transientvariable/anchor v0.0.0-20250331021423-92af82ab0491 h1:Ff12/UqB3P9dWoBulPC2v6qQHHSXJiqpUFe7zPmhjaE=
+github.com/transientvariable/anchor v0.0.0-20250331021423-92af82ab0491/go.mod h1:wNLxCKXWW9i/CheNyecqoKJ3Sv5I0GHuP2D9PdfnRLQ=
+github.com/transientvariable/config-go v0.0.0-20250330190126-d13090cf51c9 h1:yU/IpntkKICfxSAIwSAwvnFewze36qgA9prN0toYyIo=
+github.com/transientvariable/config-go v0.0.0-20250330190126-d13090cf51c9/go.mod h1:WTlv7/rW8lvazF2bwJbCn75mDimX4dtMfmBKpEF09rY=
 golang.org/x/crypto v0.36.0 h1:AnAEvhDddvBdpY+uR+MyHmuZzzNqXSe/GvuDeob5L34=
 golang.org/x/crypto v0.36.0/go.mod h1:Y4J0ReaxCR1IMaabaSMugxJES1EpwhBHhv2bDHklZvc=
 golang.org/x/exp v0.0.0-20250305212735-054e65f0b394 h1:nDVHiLt8aIbd/VzvPWN6kSOPE7+F/fNFDSXLVYkE/Iw=
